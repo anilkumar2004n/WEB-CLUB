@@ -1,0 +1,72 @@
+.main{
+    margin-left: 300px;
+    margin-right: 250px;
+    float: center;
+}
+.bio{
+    background-color: rgb(44, 56, 82);
+    width: 305px;
+    height: 1100px;
+    color: aliceblue;
+    float: left;
+}
+#img{
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 75px;
+    border-radius: 50%;
+}
+#con{
+    margin-left: 75px;
+    line-height: 0.007;
+}
+#line{
+    width: 228px;
+}
+#no{
+    line-height: 0.007;
+    font-size: 12px;
+}
+#edu{
+    margin-left: 75px;
+    line-height: 0.007;
+}
+#expert{
+    margin-left: 75px;
+}
+#exp-list{
+    margin-left: 0;
+    margin-left: 50px;
+}
+#lang{
+    margin-left: 75px;
+}
+#lan{
+    line-height: 0.007;
+}
+.data{
+    margin-left: 320px;
+    color: rgb(44, 56, 82);
+}
+#dt-bio{
+    line-height: 0.007;
+}
+#dt-reg{
+    line-height: 1;
+}
+#pro{
+    line-height: 0.6;
+}
+#pro-tl{
+    line-height: 0.01;
+}
+#ref{
+    line-height: 2;
+}
+.ref1{
+    float: left;
+}
+.ref2{
+    float: right;
+}

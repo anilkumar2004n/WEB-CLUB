@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Admission Form</title>
+    <style>body{
+        background-image: url("back.jpg");
+    }</style>
+</head>
+<body>
+        <div>
+        <center>
+            <h1><u>AK MULTI SPECIALITY HOSPITAL</u></h1>
+            <p>Madhavaram-1, Sidhout, YSR Kadapa - 516247</p>
+            <strong>
+                <a href="tel: +9193980093XX">+91 9398 0093 XX</a>&emsp;
+                <a href="mailto: wrindia@who.int">info@akhospitals.com</a>
+            </strong>
+    </center>
+    </div>
+    <form action="end.jpg" method="get" id="hospitalform" target="_blank">
+        <fieldset>
+            <legend>
+                <h3>Doctor & Hospital Details</h3>
+            </legend>
+            <div>
+                <center>
+                    <label for="dname">
+                        1. Doctor's Name : <input type="text" id="dname" name="dname" placeholder="Doctor Name" required>&emsp;
+                    </label>
+                        2. Admission Date : <input type="date" required>
+                </center>
+            </div><br>
+            <div>
+                <center>
+                    3. Planned Procedure : <input type="text" required>&emsp;
+                    4. Item Number(s) : <input type="number" required>
+                </center>
+            </div><br>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Patient Information</h3>
+            </legend>
+            <div>
+                <label for="fname">1. Patient Name : 
+                    <input type="text" id="fname" name="fname" placeholder="First Name" size="40" required>&emsp;
+                    <input type="text" id="fname" name="fname" placeholder="Last Name" size="40">&emsp;
+                </label>
+                2. Date of Birth : <input type="date" required>
+            </div><br>
+            <div>
+                3. Disease  :  <input list="dis" placeholder="Select a disease" required>
+                <datalist id="dis">
+                    <option value="Heart Related"></option>
+                    <option value="Nerves Related"></option>
+                    <option value="Blood Cells Related"></option>
+                    <option value="Maternity Related"></option>
+                    <option value="Urinary Related"></option>
+                    <option value="Fever"></option>
+                    <option value="Skin Related"></option>
+                    <option value="Eye Related"></option>
+                    <option value="Teeth Related"></option>
+                    <option value="Ear Related"></option>
+                    <option value="Headache"></option>
+                    <option value="Stomach Related"></option>
+                    <option value="Muscle Related"></option>
+                    <option value="Operation"></option>
+                    <option value="Daily check up"></option>
+                    <option value="Dialysis"></option>
+                    <option value="Others"></option>
+                </datalist>
+            </div><br>
+            <div>
+                <label for="gender">4. Gender : <br>
+                    <input type="radio" name="gender">Female&emsp;
+                    <input type="radio" name="gender">Male&emsp;
+                    <input type="radio" name="gender">Other
+                </label>
+            </div><br>
+            <div>
+                <label for="status">5. Maritual Status : <br>
+                    <input type="radio" name="status">Single&emsp;&emsp;&nbsp;
+                    <input type="radio" name="status">Married&emsp;&emsp;&nbsp;
+                    <input type="radio" name="status">Divorced<br>
+                    <input type="radio" name="status">Widowed&emsp;
+                    <input type="radio" name="status">Separated&emsp;&ensp;
+                    <input type="radio" name="status">Other
+                </label>
+            </div><br>
+            <div>
+                <label for="gname">6. Parent/Guardian Name : 
+                    <input type="text" id="gname" name="gname" placeholder="First Name" size="40" required>&emsp;
+                    <input type="text" id="gname" name="gname" placeholder="Last Name" size="40">
+                </label>
+            </div><br>
+            <div>
+                <label for="pno">
+                    7. Phone Number : <input type="text" id="pno" name="pno" placeholder="+91 XXXXX XXXXX" size="20" required>&emsp;
+                </label>
+                <label for="email">
+                    8. E-Mail : <input type="text" id="email" name="email" placeholder="sample@gmail.com" size="30" >
+                </label>
+            </div><br>
+            <div><strong>9. Address : </strong><br><br>
+                <label for="sad">
+                    Street Address : <input type="text" id="sad" name="sad" placeholder="Door No, Street Name, Village" size="70"><br><br>    
+                </label>
+                <label for="sadd">
+                    Street Address Line 2 : <input type="text" id="sadd" name="sadd" placeholder="Near by, Village, Locality" size="70"><br><br>    
+                </label>
+                <label for="city">
+                    City : <input type="text" id="city" name="city" placeholder="City Name" size="40"> &emsp;   
+                </label>
+                <label for="state">
+                    State : <input type="text" id="state" name="state" placeholder="State Name" size="40"><br><br>   
+                </label>
+                <label for="post">
+                    Postal / Zip Code : <input type="text" id="post" name="post" placeholder="XXX XXX" size="40" required>    
+                </label>
+            </div><br>
+            <div>
+                10. Which one(s) do you prefer to be contacted by <br><br>
+                <input type="checkbox" id="ph" name="ph" value="Phone">
+                <label for="ph"> Phone</label>&emsp;&emsp;&emsp;
+                <input type="checkbox" id="em" name="em" value="E-Mail">
+                <label for="em"> E-Mail</label><br>
+                <input type="checkbox" id="po" name="po" value="Post">
+                <label for="po"> Post</label>&emsp;&emsp;&emsp;&ensp;&nbsp;
+                <input type="checkbox" id="sms" name="sms" value="SMS">
+                <label for="sms"> SMS</label><br>
+                <input type="checkbox" id="oth" name="oth" value="Other">
+                <label for="oth"> Other</label><br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>Patient Agreement</h3>
+            </legend>
+            <div>
+                <input type="checkbox" id="agr" name="agr" value="Agree" required>
+                <label for="agr"> I agree to <a href="https://www.who.int/about/policies/publishing/data-policy/terms-and-conditions" target="_blank"> terms & conditions</a> .</label>
+            </div><br>
+            <div>
+                Date : <input type="date" required>
+            </div><br>
+            <div>
+                <label for="sign">
+                    Signature :<br><br><br><br><hr style="width:25%;text-align:left;margin-left:0">
+                    <p>Powered by AK Hospitals<p>
+                        <marquee>
+                            <a href="tel: +9193980093XX">+91 9398 0093 XX</a>&emsp;&emsp;&emsp;
+                            <a href="mailto: wrindia@who.int">info@akhospitals.com</a>
+                        </marquee>    
+                </label>
+            </div>
+        </fieldset><br><br>
+        <center>
+            <input type="submit" form="hospitalform" value="Submit">&emsp;&emsp;&emsp;&emsp;
+            <input type="reset" value="Reset">
+        </center>
+    </form>
+</body>
+</html>
