@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firewall Authentication</title>
+</head>
+<style>
+    body{
+        background-image: linear-gradient(to right, rgb(144, 104, 254) , rgb(255, 255, 255));
+    }
+    .logo{
+        border: 2px solid;
+        border-color: red;
+    }
+    .sign{
+        border: 2px solid;
+        border-color: rgb(236, 239, 239) red red;
+    }
+    .logo{
+        margin-top: 25px;
+        width: 500px;
+        height: 300px;
+        background-color: rgb(236, 239, 239);
+    }
+    .image{
+        margin-top: 10px;
+        width: 225px;
+    }
+    #head{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        font-weight: 600;
+        color: black;
+        margin-top: -7.5px;
+    }
+    #note{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: 600;
+        color: black;
+    }
+    .sign{
+        width: 500px;
+        height: 225px;
+        margin-top: -17.5px;
+        border-radius: 0px 0px 5px 5px;
+        background-color: rgb(214, 212, 212);
+    }
+    .signin{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: 500;
+        color: black;
+    }
+    #note{
+        margin-top: -2.5px;
+    }
+    #user,#pass{
+        height: 15px;
+        width: 225px;
+        border: 1px solid rgb(164, 162, 162);
+    }
+    .btn{
+        cursor: pointer;
+        font-size: 15px;
+        background-color: rgb(236, 239, 239);
+        border: 1px solid rgb(185, 184, 184);
+        margin-right: -300px;
+        border-radius: 2.5px;
+    }
+    .links{
+        font-size: medium;
+    }
+    a{
+        color: blue;
+    }
+    #l2{
+        margin-left: -25px;
+    }
+    #l3{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    #l5{
+        margin-right: 100px;
+    }
+</style>
+<body><center><div class="main">
+        <div class="logo">
+            <img class="image" src="mits.png" alt="MITS LOGO">
+            <p id="head">Authentication Required</p>
+        </div>
+        <div class="sign">
+            <p id="note"><br>Please  enter  your  username  and  password  to  continue .</p>
+            <div class="signin"><br>
+                <label for="user">Username: </label>&nbsp;
+                <input type="email" name="user" id="user"><br><br>
+                <label for="pass">Password: </label>&nbsp;
+                <input type="password" name="pass" id="pass"><br><br>
+                <input type="submit" class="btn" value="Continue">
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <a id="l1" href="#"><br>Grievance and Redressal Cell Website</a><br><br>
+        <a id="l2" href="#">Click here to MITS Electives</a>
+        <a id="l3" href="#">Click here to MITS MOOC's</a>
+        <a id="l4" href="#">Click here to MITS GDLC</a><br><br><br>
+        <a id="l5" href="#">Click here to Library Soul - Opac</a>
+        <a id="l6" href="#">MITS MOODLE Login</a><br><br><br>
+        <a id="l7" href="#">Click here to MITSIMS(GEMS)Login</a>
+    </div></center>
+</body>
+</html>
